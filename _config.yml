@@ -1,0 +1,43 @@
+title: macOS.tech
+description: Mirrors to download the leaked Windows 11 build.
+permalink: /blog/:year/:title/
+url: https://996jack.github.io/macOS.tech
+logo: /assets/img/favicon.png
+
+socials:
+  github: 996Jack
+
+compress_html:
+  comments: all
+
+exclude:
+  - .editorconfig
+  - .gitignore
+  - .gitattributes
+  - .prettierrc
+  - CNAME
+  - Gemfile
+  - Gemfile.lock
+  - LICENSE
+  - README.md
+
+markdown: kramdown
+
+kramdown:
+  auto_ids: false
+  input: GFM
+
+collections:
+  - mirrors
+
+plugins:
+  - jekyll-redirect-from
+  - jekyll-sitemap
+  - jekyll-seo-tag
+  - jekyll-target-blank
+
+whitelist:
+  - jekyll-redirect-from
+  - jekyll-sitemap
+  - jekyll-seo-tag
+  - jekyll-target-blank
